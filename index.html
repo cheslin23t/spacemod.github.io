@@ -8,9 +8,9 @@
     <p style="font-size: large;" style="color: chartreuse;">Made by <b><a href="https://www.spacehold.tk/" style="color:rgb(36, 155, 252)">Spacehold</a></b></p>
     <h2 style="color: gold;">Invite spacemod below!</h2>
     <br>
-    <button style="background-size:14mm" style="background-color:rgb(5, 216, 75);"  onclick="location.href='https://discord.com/api/oauth2/authorize?client_id=753578252047745055&permissions=8&redirect_uri=https%3A%2F%2Fwww.spacemod.tk%2F&response_type=code&scope=bot%20identify'" type="button">Invite Spacemod</button>
+    <button style="background-size:14mm;color:darkorange;background-color: aquamarine;" onclick="location.href='https://discord.com/api/oauth2/authorize?client_id=753578252047745055&permissions=8&redirect_uri=https%3A%2F%2Fwww.spacemod.tk%2F&response_type=code&scope=bot%20identify'" type="button">Invite Spacemod</button>
         <br>
-        <button style="float: none;" id="home">Commands</button>
+        <button style="float: none;color: yellow;background-color:darkred" id="home">Commands</button>
       <script>
       document.getElementById("home").onclick = function() {
           location.replace("https://www.spacemod.tk/commands")
@@ -19,12 +19,22 @@
       <br>
         <div style="background-image: url('unnamed.png');"></div>
         <title>Spacemod</title>
-        <a href="https://www.spaceholdtest.tk">Spacehold Website</a>
+        <button id="website" style="color: aqua;background-color: blueviolet;">Spacehold Website</button>
+        <script>
+            document.getElementById("website").onclick = function() {
+                location.replace("https://www.spaceholdtest.tk")
+            }
+        </script>
 <br>
-<br>
-<a href="https://www.spaceholdchat.tk">Spacechat invite</a>
+
+<button id="spacechatinv" style="color: chartreuse;background-color: blue;">Spacechat Invite</button>
+<script>
+    document.getElementById("spacechatinv").onclick = function() {
+        location.replace("https://www.spaceholdchat.tk")
+    }
+</script>
     <br>
-<button id="support">Join Spacemod Support Server!</button>
+<button id="support" style="color: blue;background-color: aqua;">Join Spacemod Support Server!</button>
 <script>
     document.getElementById("support").onclick = function() {
         location.replace("https://discord.gg/zj2CDq9")
